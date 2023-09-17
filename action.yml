@@ -1,0 +1,10 @@
+name: my-aqua-installer
+description: 'checkout>aqua-installer'
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/checkout@v4
+
+    - uses: aquaproj/aqua-installer@v2.1.2
+      with:
+        aqua_version: v2.11.0
