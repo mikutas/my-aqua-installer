@@ -1,5 +1,11 @@
 # my-aqua-installer
 
+usage
+
+```yaml
+- uses: mikutas/my-aqua-installer@v0.2.0
+```
+
 ref
 
 - [Creating a composite action - GitHub Docs](https://docs.github.com/en/actions/creating-actions/creating-a-composite-action)
