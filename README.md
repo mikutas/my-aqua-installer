@@ -1,5 +1,10 @@
 # my-aqua-installer
 
+A composite action of:
+
+- https://github.com/actions/checkout
+- https://github.com/aquaproj/aqua-installer
+
 usage
 
 ```yaml
