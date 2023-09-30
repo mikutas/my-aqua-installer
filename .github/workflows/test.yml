@@ -1,0 +1,10 @@
+# dummy test for automerge by Renovate
+name: test
+
+on: pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mikutas/my-aqua-installer@v0.2.0
