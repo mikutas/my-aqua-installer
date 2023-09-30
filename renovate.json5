@@ -4,5 +4,16 @@
     "github>aquaproj/aqua-renovate-config#1.10.0",
     "github>mikutas/my-renovate-config"
   ],
-  "recreateWhen": "always"
+  "recreateWhen": "always",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["README\\.md"],
+      "matchStrings": [
+        "mikutas/my-aqua-installer@(?<currentValue>.*)"
+      ],
+      "datasourceTemplate": "github-tags",
+      "depNameTemplate": "mikutas/my-aqua-installer"
+    }
+  ]
 }
