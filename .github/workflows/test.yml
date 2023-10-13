@@ -1,5 +1,5 @@
 # dummy test for automerge by Renovate
-name: test
+name: Dummy
 
 on: pull_request
 
