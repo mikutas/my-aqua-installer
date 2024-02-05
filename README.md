@@ -8,7 +8,7 @@ A composite action of:
 usage
 
 ```yaml
-- uses: mikutas/my-aqua-installer@v0.2.0
+- uses: mikutas/my-aqua-installer@v0.2.1
 ```
 
 ref
