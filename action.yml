@@ -10,7 +10,7 @@ runs:
   steps:
     - uses: actions/checkout@v5
 
-    - uses: aquaproj/aqua-installer@v4.0.3
+    - uses: aquaproj/aqua-installer@v4.0.4
       with:
         aqua_version: v2.55.1
         aqua_opts: ${{ inputs.aqua_opts }}
